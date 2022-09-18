@@ -54,3 +54,15 @@
 
 // console.log(typeOf name);
 
+const person = {
+    firstName: 'Toba',
+    lastName: 'Yusuf',
+    age: 23,
+    getBirthday: function() {
+        return 2022 - this.age;
+    }
+}
+
+let val = person;
+
+console.log(val);

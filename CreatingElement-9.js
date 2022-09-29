@@ -26,4 +26,7 @@ link.className = "secondary-link delete-item";
 // Adding icon to that link
 link.innerHTML = "<i class= fa fa-spider></>"
 
+// Appending that link to the li
+li.appendChild(link)
+
 console.log(li);
